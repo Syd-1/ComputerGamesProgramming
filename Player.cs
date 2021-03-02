@@ -68,8 +68,8 @@ public class Player : MonoBehaviour {
 			score.text = "YOU WIN!!!";
 		}
 		else
-    {
+    		{
 			score.text = "Chickens Loose: " + chickensLeft.ToString();
-    }	
+    		}	
 	}
 }
